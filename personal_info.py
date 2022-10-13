@@ -1,0 +1,12 @@
+name = input("Please enter your name: ")
+address = input("Please enter your address: ")
+city = input("Please enter your city: ")
+zip = input("Please enter your zip code: ")
+phone_num = input("Please enter your phone number: ")
+college_major = input("Please enter your college major: ")
+
+print("Hello, " + name + ".")
+print("I see you currently live in " + city, end=" ")
+print("and your address is " + address + " " + zip)
+print("Your phone number is " + phone_num)
+print("Finally, you are majoring in " + college_major + " in college.")
